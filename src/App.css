@@ -1,0 +1,38 @@
+body {
+  background-color: #9366ff;
+
+}
+
+.App {
+  background-color:#3f3160;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+}
+
+#mz-form input {
+  background-color: rgb(27, 112, 137);
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+}
+
+#mz-form input::placeholder {
+  color: rgb(255, 255, 255, 0.5);
+}
+#mz-form input:focus, #mz-form button:focus{
+  outline: none;
+}
+
+#mz-form button{
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgb(202, 156, 24);
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+}
